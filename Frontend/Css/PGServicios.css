@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    height: max-content;
+}
+div#Titulo{
+width: 100%;
+text-align: center;
+cursor: default;
+}
+div#Servicios{
+width: 100%;
+height: max-content;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+div#Servicios > div{
+    width: 400px;
+    height: 420px;
+    background: linear-gradient(135deg,#2196f3 12.5%,white 13%,#123d5b 13.5%);
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: default;
+}
+div#Servicios > div:hover{
+    transform: scale(1.05);
+}
+div#Servicios > div > img{
+    width: 70%;
+    height: 200px;
+}
+div#Servicios > div > p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 21px;
+    color: white;
+}

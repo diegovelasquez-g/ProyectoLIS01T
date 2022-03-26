@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+section{
+    width: 100%;
+    min-width: 481px;
+    height: max-content;
+}
+section > div#Seccion1{
+    text-align: center;
+    cursor: default;
+}
+div#Seccion1 > p{
+    font-size: 20px;
+    text-align: justify;/*Justifica el texto*/
+    margin-left: 100px;
+    margin-right: 100px;
+    cursor: default;
+}
+section > div#Seccion2{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div#Seccion2 > div{
+    width: 380px;
+    height: 400px;
+    margin: 22px;
+    background: linear-gradient(135deg,#2196f3 12.5%,white 13%,#123d5b 13.5%);/*Aplicar color gradiente(Degradado) como fondo para el div*/
+    border-radius: 10px;/*Los 135deg se utilizan para rotar el angulo de degradado*/
+    text-align: center;
+    color: white;
+    cursor: default;
+    font-size: 21px;
+}
+div#Seccion2 > div:hover{
+    transform: scale(1.05);
+}
+div#Seccion2 > div > p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+div#Seccion2 > div#Valores{
+    overflow-y: auto;/*Para colocar una barra de dezplazamiento vertical cuando el contenido sea mayor que el contenedor padre*/
+}

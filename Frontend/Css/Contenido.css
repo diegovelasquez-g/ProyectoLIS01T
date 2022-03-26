@@ -1,0 +1,168 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: max-content;/*para que se ajuste el tamaño de los elementos que contiene*/
+}
+/*incia estilos cabera ventana*/
+header{
+    margin-left: 0;
+    margin-right: 0;
+    --Altura: height: max-content;/*crear la variable altura para saber el alto del elemento*/
+    display: flex;
+    flex-wrap: wrap;/*Para reordenar los elementos cuando lleguen a su ancho minimo establecido*/
+    margin-left: 0%;
+    margin-right: 0%;
+    justify-content: center;
+}
+div#Logo{
+    width: 250px;
+    height: var(--Men);
+}
+div#Logo > img{
+    width: 100%;
+    height: 100%;
+}
+div#Menu{
+    width: calc(100% - 450px);
+    --Men: height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+div#Menu > a{
+    min-width: 200px;
+    height: 40px;
+    background-color: #2196f3;
+    margin: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    border-radius: 12px;
+    cursor: default;
+}
+div#Menu > a:hover{/*al pasar el mouse encima del elemento*/
+    background-color: white;
+    color: black;
+    border: solid #2196f3 1px;
+}
+div#Menu > a:active{/*al hacer click sobre el elemento*/
+    transform: scale(0.9);/*cambiar la escala del elemto(disminuir)*/
+}
+div#Sesion{
+    width: 200px;
+    min-width: 200px;
+    height: var(--Altura);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#Sesion > a{
+    min-width: 180px;
+    height: 40px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2196f3;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    border-radius: 12px;
+    cursor: default;
+}
+div#Sesion > a:hover{
+    background-color: white;
+    color: black;
+    border: solid #2196f3 1px;
+}
+div#Sesion > a:active{
+    transform: scale(0.9);
+}
+/*Estilos de la cabecera al estar entre los limites de ancho establecidos*/
+@media (max-width:769px) and (min-width:482px){
+    div#Logo{
+        width: 50%;
+        min-width: 481px;
+    }
+    div#Menu{
+        width: 50%;
+        min-width: 481px;
+    }
+}
+/*termina cabecera ventana*/
+/*Pie de pagina*/
+footer{
+    width: 100%;
+    height: max-content;
+    background-color: #123d5b;
+    cursor: default;
+}
+footer > div#Pie1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+footer > div#Pie2{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+div#Pie2 > div{
+    width: 50%;
+}
+div#Redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+div#Redes > div{
+    width: 100px;
+    margin: 30px;
+    height: 70px;
+    text-align: center;
+    color: white;
+}
+div#Redes > div:hover{
+    cursor: pointer;
+}
+div#Contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+}
+div#Contacto > div{
+    margin: 30px;
+}
+div#Pie3{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-top: solid white 1px;
+    text-align: center;
+}
+/*Estilos al al estar entre los limityes de ancho estabelcidos*/
+@media (max-width:769px) and (min-width:482px){
+    div#Pie2 > div{
+        width: 100%;
+    }
+}
