@@ -1,0 +1,162 @@
+/*Seccion de Informacion*/
+section{
+    background-color: #2196f3;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: max-content;
+}
+/*Section parte1*/
+section > div#Section1{
+    width: 49.8%;
+    height:max-content;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+div#Section1 > img{
+    width: 90%;
+    height: 75%;
+    border-radius: 25px;
+}
+/*Section parte2*/
+section > div#Section2{
+    width: 49.8%;
+    height: max-content;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    border-left: solid white 1px;
+}
+div#Section2 > .S2Info{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.S2Info > div{
+    width: 50%;
+    height: 100%;
+}
+.S2Info div img{/*Selectores mas especificos, utilizando sus contenedores(selectores) padre*/
+    margin-left: 12px;
+    margin-top: 12px;
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+}
+div#S2-1{
+    border-bottom: solid white 1px;
+}
+/*Bontones Section*/
+.MasInfo{
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    border-style: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+/*Modal*/
+div#Modal{
+    position: fixed;/*para que el modal permanezca siempre en panatalla sin importar que el usuario se desplaze dentro de la ventana*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);/*agregar transparencia a la ventana*/
+}
+div#Mensaje{
+    margin: 14% auto;/*para centrar el modal*/
+    width: 481px;
+    height: max-content;
+    background-color: white;
+}
+div#Mensaje > div#Titulo{
+    width: 480;
+    height: 40px;
+    background-color: #123d5b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: solid;
+    cursor: default;
+}
+div#Mensaje > div#Message{
+    width: 480;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+div#Mensaje > div#Message > p#MessageVer{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p#MessageVer{
+    cursor: default;
+}
+div#Mensaje > div#Cerrar{
+    width: 480;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#Cerrar > button{
+    width: 150px;
+    height: 25px;
+    background-color: white;
+    border: solid #123d5b 1px;
+}
+div#Cerrar > button:hover{
+    background-color: #123d5b;
+    color: white;
+    cursor: pointer;
+}
+/*estilos para reordenar la informacion y elemntos en la ventana (section)*/
+@media (max-width:769px) and (min-width:482px){
+    section{
+        width: 100%;
+        height: max-content;
+    }
+    section > div#Section1{
+        border-right: none;
+        border-top: solid white 1px;
+        width: 100%;
+    }
+    section > div#Section2{
+        border-left: none;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        border-top: solid white 1px;
+        height: max-content;
+    }
+    .S2Info{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .S2Info > div{
+        width: 100%;
+        min-width: 481px;
+    }
+    .S2Info{
+        width: 100%;
+    }
+    .S2Info > div > img{
+        width: 80%;
+        height: 30%;
+    }
+    .S2Info > div > p{
+        margin-top: -80px;
+    }
+    .S2Info > div > button{
+        margin-top: -100px;
+    }
+}

@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+h2{
+    cursor: default;
+}
+div#Fondo{
+    width: 100%;
+    height: 100%;
+    background: url(../Imagenes/Fondo.jpg) no-repeat;/*Agregar iamgen desde css*/
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#VentanaSesion{
+    width: 481px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+div#Sesion1{
+    width: 481px;
+    height: max-content;
+}
+div#Credenciales{
+    width: 479px;
+    height: 350px;
+    background-color: white;
+    border: solid black 1px;
+    text-align: center;
+}
+div#Credenciales img{
+    width: 40%;
+    height: 100px;
+}
+.datos{
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-bottom: solid 1px;
+}
+input#BtnSesion{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #2196f3;
+    color: white;
+    font-size: 17px;
+}
+div#OpcionesSesion{
+    width: 479px;
+    height: 50px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border: solid black 1px;
+}
+div#OpcionesSesion:hover{
+    background-color: gainsboro;
+    cursor: pointer;
+}
+/**/
+div#Sesion2{
+    min-width: 479px;
+    height: max-content;
+    text-align: center;
+    background-color: white;
+    border: solid black 1px;
+}
+div#Sesion2 img{
+    width: 40%;
+    height: 100px;
+}
+div#Sesion2 > button#Google{
+    width: 60%;
+    height: 40px;
+    font-size: 18px;
+    background-color: white;
+    border: dotted 2px;
+}
+button#Google > i{
+    margin-left: 5px;
+}
+div#Sesion2 > button#Atras{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgb(160, 153, 153);
+    border: none;
+    cursor: pointer;
+}
+/**/
+div#Ayuda{
+    position: fixed;/*para que el modal permanezca siempre en panatalla sin importar que el usuario se desplaze dentro de la ventana*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);/*agregar transparencia a la ventana*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#Ayuda > div{
+    margin: 13% auto;/*para centrar el modal*/
+    width: 481px;
+    height: 200px;
+    background-color: white;
+    border: solid black 1px;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+}
+div#Ayuda > div > p{
+    font-size: 18px;
+    margin-left: 65px;
+    margin-right: 65px;
+    text-align: justify;
+}
+div#Ayuda > div > button{
+    position: absolute;
+    margin-top: 12px;
+    bottom: 0;
+    margin-bottom: 8px;
+    right: 0;
+    margin-right: 8px;
+    width: 150px;
+    height: 40px;
+    border: hidden;
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
