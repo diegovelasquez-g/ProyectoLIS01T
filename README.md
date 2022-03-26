@@ -5,7 +5,11 @@ _Creacion de una aplicación web para la materia LENGUAJES INTERPRETADOS EN EL S
 
 ## Autores ✒️
 
-* **Diego Alejandro Velásquez Gómez      VG190501** - **Programación, diseño**
+* Carlos Mauricio López García LG151035
+* Carlos Ricardo López López LL192148
+* Mario Ernesto Medina Martínez MM201254
+* Diego Alejandro Velásquez Gómez VG190501
+* Alinson Javier Melendez Torres MT191530
 
 ## Licencia :page_facing_up: 
 Este proyecto está bajo la licencia **_Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)_**.
