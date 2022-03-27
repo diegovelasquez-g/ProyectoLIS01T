@@ -37,6 +37,5 @@ Sin restricciones adicionales : no puede aplicar términos legales o medidas tec
 * [Tablero en Trello] - https://trello.com/b/LKKrN0AG/registro-de-citas-lis
 * [Enlace a Mockups] - 
 * [Enlace al Manual de Usuario] - 
-* [Enlace al Manual Técnico] - 
+* [Enlace al Manual Técnico] - https://drive.google.com/file/d/1-D7h8GI-DUEPhJt19cr5TAZYMVYmmfW6/view?usp=sharing
 * [Enlace Video Explicativo] - 
-* [Enlace Documento Fase 1] - 
