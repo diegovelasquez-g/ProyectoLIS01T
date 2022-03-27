@@ -35,7 +35,7 @@ Sin restricciones adicionales : no puede aplicar términos legales o medidas tec
 ## Enlaces de interés 👀
 
 * [Tablero en Trello] - https://trello.com/b/LKKrN0AG/registro-de-citas-lis
-* [Enlace a Mockups] - 
+* [Enlace a Mockups] - https://wireframepro.mockflow.com/space/ProyectoLIS
 * [Enlace al Manual de Usuario] - 
 * [Enlace al Manual Técnico] - https://drive.google.com/file/d/1-D7h8GI-DUEPhJt19cr5TAZYMVYmmfW6/view?usp=sharing
-* [Enlace Video Explicativo] - 
+* [Enlace Video Explicativo] - https://drive.google.com/file/d/1JvVQQh7ryNQvJorS_vBJt7l8F6GJ8-BY/view?usp=sharing
